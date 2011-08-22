@@ -1,0 +1,33 @@
+[Input DICOM Image Slice Name with Complete Path]
+DICOM-CT-Image\CT_4856541d1dfe6be9.dcm
+
+[Output RTSTRUCT File Name]
+output_RTSTRUCT.dcm
+
+[Number of Image Slices in the Segmented Image]
+83
+
+[Starting Slice Number for the Segmented with respect to original DICOM file]
+1
+
+[Common SOP Instance UID Prefix for the DICOM Series]
+1.2.840.113619.2.55.3.464283444.427.1208496883.215.
+
+[Number of ROIs to be written to RTSTRUCT]
+2
+
+[Names of the text files containing contour data]
+contour1.txt
+bones5.txt
+
+[Names to be assigned to the ROIs]
+external contour
+bones
+
+[ROI Interpretted Types for Each ROI]
+EXTERNAL
+ORGAN
+
+[Colors to be Assigned for each ROI]
+255\0\255
+0\255\255
